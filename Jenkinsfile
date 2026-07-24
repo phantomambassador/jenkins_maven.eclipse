@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
-        jdk 'Java 17'
-    }
+    maven 'maven 3.9.10'
+    jdk 'JAVA JDK 17'
+}
 
     stages {
         stage('clean') {
